@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         primary: 'var(--clr-primary)',
         secondary: 'var(--clr-secondary)',
-        tertiary: 'var(--clr-tertiary)',
+        'secondary-2': 'var(--clr-secondary-2)',
         'accent-1': 'var(--clr-accent-1)',
         'accent-2': 'var(--clr-accent-2)',
         'hover-1': 'var(--clr-hover-1)',
@@ -26,7 +26,7 @@ module.exports = {
       textColor: {
         primary: 'var(--clr-primary)',
         secondary: 'var(--clr-secondary)',
-        tertiary: 'var(--clr-tertiary)',
+        'secondary-2': 'var(--clr-secondary-2)',
         'accent-1': 'var(--clr-accent-1)',
         'accent-2': 'var(--clr-accent-2)',
         'hover-1': 'var(--clr-hover-1)',
