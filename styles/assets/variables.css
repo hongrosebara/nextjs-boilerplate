@@ -1,7 +1,7 @@
 :root {
   --clr-primary: #030303;
   --clr-secondary: #EB7565;
-  --clr-tertiary: #61C4B7;
+  --clr-secondary-2: #61C4B7;
   --clr-accent-1: #F39E9E;
   --clr-accent-2: #552049;
   --clr-hover-1: #755CDE;
@@ -9,19 +9,19 @@
   --clr-hover-3: #7A746E;
   --clr-light: #FFF7F0;
 
-    /* font-sizes */
-    --fs-900: 9.375rem;
-    --fs-800: 6.25rem;
-    --fs-700: 3.5rem;
-    --fs-600: 2rem;
-    --fs-500: 1.75rem;
-    --fs-400: 1.125rem;
-    --fs-300: 1rem;
-    --fs-200: 0.875rem;
-    
-    /* font-families */
-    --ff-heading: "Poppins", sans-serif;
-    --ff-subheading: "Raleway", sans-serif;
-    --ff-serif: "Roboto Slab", sans-serif;
-    --ff-body: "Roboto", sans-serif;
+  /* font-sizes */
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+  
+  /* font-families */
+  --ff-heading: "Poppins", sans-serif;
+  --ff-subheading: "Raleway", sans-serif;
+  --ff-serif: "Roboto Slab", sans-serif;
+  --ff-body: "Roboto", sans-serif;
 }
