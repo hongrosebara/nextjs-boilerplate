@@ -1,13 +1,13 @@
 :root {
-  --clr-primary: #030303;
-  --clr-secondary: #EB7565;
-  --clr-secondary-2: #61C4B7;
-  --clr-accent-1: #F39E9E;
-  --clr-accent-2: #552049;
+  --clr-primary: #733FC8;
+  --clr-secondary: #48556A;
+  --clr-secondary-2: #48556A;
+  --clr-accent-1: #19202D;
+  --clr-accent-2: #ECF2F8;
   --clr-hover-1: #755CDE;
   --clr-hover-2: #F6A560;
   --clr-hover-3: #7A746E;
-  --clr-light: #FFF7F0;
+  --clr-light: #FFFFFF;
 
   /* font-sizes */
   --fs-900: 9.375rem;
@@ -23,5 +23,5 @@
   --ff-heading: "Poppins", sans-serif;
   --ff-subheading: "Raleway", sans-serif;
   --ff-serif: "Roboto Slab", sans-serif;
-  --ff-body: "Roboto", sans-serif;
+  --ff-body: "Barlow Semi Condensed", sans-serif;
 }

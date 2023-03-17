@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:css": "postcss styles/main.css -o styles/main_browser.css"
+    "build:css": "postcss styles/assets/typography.css -o styles/main_browser.css"
   },
   "dependencies": {
     "@next/font": "13.1.1",
