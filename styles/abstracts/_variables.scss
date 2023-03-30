@@ -1,0 +1,57 @@
+:root {
+  --clr-primary: #D87D4A;
+  --clr-secondary: #101010;
+  --clr-secondary-2: #F1F1F1;
+  --clr-light: #FAFAFA;
+  --clr-dark: #000000;
+  --clr-white: #FFFFFF;
+  --clr-hover: #fbaf85;
+
+
+  --base-font-size: 16px;
+  --base-line-height: 1.6;
+
+  // SPACING
+
+  --base-spacing-unit        : 40px/--base-font-size * 1rem;
+  --unit                     : --base-spacing-unit;
+  --base-border-radius       : 5px;
+  --grid-gutter              : 40px/--base-font-size * 1rem;
+  --container-pad            : --unit; 
+  --container-max            : 1520px;
+  --container-small-max      : 820px;
+  --container-tiny-max       : 376px;
+
+  /* Major Third Typescale */
+  --fs-50: 0.8rem;
+  --fs-100: 1rem;
+  --fs-200: 1.25rem;
+  --fs-300: 1.563rem;
+  --fs-400: 1.953rem;
+  --fs-500: 2.441rem;
+
+  /* Paddings */
+  --pd-container: calc(12px + 1.5625vw);
+  --gap-unit: calc(8px + 1.5625vw);
+  --gap-unit-50: 2rem;
+  --gap-unit-100: 4rem;
+  --gap-unit-150: 5.5rem;
+  --gap-unit-200: 7rem;
+
+  @include respond(sm) {
+    --gap-unit-150: 7.5rem;
+  }
+
+  @include respond(md) {
+    /* Padding */
+    --pd-container: 4rem 10rem;
+    --gap-unit-100: 10rem;
+    --gap-unit-150: 10rem;
+  }
+  
+  /* font-families */
+  --ff-heading: "Inter", sans-serif;
+  --ff-subheading: "Raleway", sans-serif;
+  --ff-serif: "Inter", sans-serif;
+  --ff-body: "Inter", sans-serif;
+}

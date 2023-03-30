@@ -1,0 +1,45 @@
+/* ------------------- */
+/* Typography               */
+/* ------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+
+  @include respond(lg) {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: var(--ff-body);
+  font-weight: var(--fs-400);
+  color: var(--clr-black);
+  background-color: var(--clr-white);
+  line-height: var(--base-line-height);
+  min-height: 100vh;
+}
+
+.collection {
+  &__header {
+    @apply flex justify-center items-center bg-black text-white;
+    height: 247px;
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    @include respond(md) {
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 1.42857px;
+    }
+  }
+}

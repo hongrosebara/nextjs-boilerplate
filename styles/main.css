@@ -1,8 +1,0 @@
-@import "./assets/variables.css";
-@import "./assets/base.css";
-@import "./assets/typography.css";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
