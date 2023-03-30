@@ -48,6 +48,10 @@
     --gap-unit-100: 10rem;
     --gap-unit-150: 10rem;
   }
+
+  @include respond(lg) {
+    --base-font-size: 18px;
+  } 
   
   /* font-families */
   --ff-heading: "Inter", sans-serif;
